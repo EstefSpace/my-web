@@ -1,0 +1,32 @@
+img {
+    border-radius: 50%;
+    width: 64;
+    height: 64;
+}
+
+nav {
+    padding: 10px;
+}
+
+span {
+    color: aqua;
+}
+
+footer {
+    text-align: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.text {
+    align-self: center;
+}
+
+.typed-text {
+    font-size: 50px;
+}
