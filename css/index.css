@@ -1,20 +1,53 @@
-img {
+/* ¡Hola persona curiosa que mira los estilos css de mi pagina web, espero que te guste! */
+
+.home {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo {
     border-radius: 50%;
     width: 64;
     height: 64;
 }
 
-nav {
+section {
     padding: 20px;
 }
 
+#change-theme {
+    font-size: 30px;
+}
+
+mark {
+    border-radius: 5px;
+}
+
+nav {
+    margin: 20px;
+}
 span {
-    color: aqua;
+    color: rgb(26, 167, 167);
 }
 
 footer {
     text-align: center;
 }
+
+
+.img-cat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.img-cat img {
+    width: 500px;
+    height: 500px;
+}
+
 
 .hero {
     display: flex;
@@ -30,3 +63,5 @@ footer {
 .typed-text {
     font-size: 50px;
 }
+
+

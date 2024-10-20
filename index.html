@@ -1,10 +1,12 @@
-<html>
+<html data-theme="dark">
     <head>
     <!-- PICO CSS FRAMEWORK -->
     <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.cyan.min.css"
-  >
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+>
+   <!-- FONTAWESOME -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="./Public/estef_50.png">
     <link rel="stylesheet" href="./css/index.css">
     <title>El portafolio de estef</title>
@@ -12,34 +14,96 @@
     <body>
     
       
-            <nav>
-                <ul>
-                  <li><img src="./Public/estef.png" alt="Avatar de estef"></li>
-                </ul>
-                <ul>
-                  <li><a href="#about-me" class="contrast">Sobre mi</a></li>
-                  <li><a href="#" class="contrast">Proyectos</a></li>
-                  <li><a href="#" class="contrast">Habilidades</a></li>
-                  <li><a href="#contact" class="contrast">Contacto</a></li>
-                </ul>
-                
-            </nav>
-            <hr>
-
-            <div class="hero">
-                <div class="text">
-                    <article>
-                        <h1 class="typed-text">Hola soy estef y<br> soy un <span id="typed"> </span>.</h1>
-                    </article>
+        
+      <nav>
+        <ul>
+          <li><a class="home" href="#">estefdev.xyz</a></li>
+        </ul>
+        <ul>
+          <li><a class="secondary" data-placement="bottom" data-tooltip="Cambia de tema" id="change-theme"><i id="icon-theme" class="fa-solid fa-moon"></i></a></li>
+          
+        
+          <details class="dropdown">
+            <summary>
+              Menu
+            </summary>
+            <ul dir="rtl">
+              <li><a href="#blogs" class="contrast">Blogs</a></li>
+          <li><a href="#projects" class="contrast">Proyectos</a></li>
+          <li><a href="#skills" class="contrast">Habilidades</a></li>
+          <li><a href="#contact" class="contrast">Contacto</a></li>
+          
+            </ul>
+          </details>
+        </li>
+          
+      </ul>
+      
+      </nav>
+    
+      <hr>
+   
+            <section class="hero">
+                  <div class="text">
+                      <article clas="article-hero">
+                        <h1 class="typed-text">👋 Hola soy estef y soy un <span id="typed"> </span>.</h1>
+                        <footer>Te dejo un gato naranja random abajo para que no te sientas solo ❤</footer>
+                      </article>
+                     
+                     
+                    
+                    </div>
                 </div>
-            </div>
-            
+                
+                
+              </section>
 
             <hr>
-            <footer><b>estef.space@gmail.com</b></footer>
+            <section>
+              <div class="img-cat">
+                  <img src="https://cataas.com/cat/orange,cute" alt="Una foto random de un gato">
+                </div>
+            </section>
+            
+            <hr>
+            <section id="blogs" class="blogs">
+              <div class="text-blogs"><h2><kbd>Blogs</kbd></h2></div>
+             
+                <div class="article-about-me">
+                  <details>
+                    <summary>Mi historia (texto largo)</summary>
+                    <article>
+                      <header><h1><mark>Mi historia.</mark></h1></header>
+                      <p>Naci un <mark>13 de septiembre del 2010</mark> en <mark>Aguascalientes, México</mark> que es un pequeño estado la verdad. Siempre estuve <b>interesado por las computadoras y la tecnologia</b>, desde los 7 - 8 años estuve aprendiendo a usar una computadora/laptop, y siempre mis dudas de pequeño fue <b>¿Como hacen los programas que utilizo? ¿Como se hizo youtube? ¿Como puedo crear mi propia app, mi propia web?</b>, me tardo unos años para entender todas las respuestas de esas preguntas.</p>
+  
+                      <p>Creo que a la edad de los <mark>10 años, empeze a aprender a programar</mark>, porque un dia en mi escuela un profesor dejo como actividad de tecnologia, hacer una pagina web para una funcion especifica, entonces se me ocurrio la brillante idea de <b>buscar ¿Como se hace un pagina web?</b>, ese dia encontre muchos tutoriales de <mark>JavaScript, Html, Css</mark> que explicaban como hacer mi propia web. Pero yo no estaba seguro de que esa era la forma que queria que el profesor, y tenia razon, el profesor lo queria hacer con <b>wix.com</b>. Con esa app hice mi primera pagina web, era una red social, no tenia que programar nada, pero poner diseños era limitado, no podia elegir por ejemplo, el <mark>"border-radius"</mark> de un boton.</p>
+  
+                      <p>Fue asi como investigue más a fondo a como hacer una web, y vi que eran los <b>lenguajes de programacion</b>, encontre un tutorial que <mark>hacia una web con un BLOC DE NOTAS</mark> y asi fue como hize con <b>html y css</b> mi primera pagina web (por mi mismo, sin apps que me limitaban).</p>
+  
+                      <p>Despues pasaron los años y descubri discord, era un red social como las demás, pero algo que era innovador para mi eran los <mark>Bots</mark>, asi que decidi hacer mi propio bot, aunque fue dificil aprender <mark>JavaScript, nodeJS, discordJS</mark> hice que a los <b>10 - 15 dias</b> prendiera mi primer bot. Tengo que confesar que he tenido muchos intentos de bots famosos, la verdad que no era un experto, y ahora que estoy en el presente tampoco. Pero he mejorado, actualmente trabajo en el bot <mark>Rabbit</mark> que puedes ver más abajo en #projects. Estos ultimos meses he aprendido sobre el framework <mark>Astro</mark> y he retomado las paginas web. Espero aprender todos los dias cosas nuevas sobre la <b>programacion</b> ❤. </p>
+                      <footer>¿Te ha gustado mi historia? Un poco extensa diria yo... 🤣 </footer>
+                    </article>
+                  </details>
+               
+                  <details>
+                    <summary>¿Como hacer un bot de discord.js v14? (proximamente...) (documentacion larga)</summary>
+                    <p>¡Dije proximamente!</p>
+                  </details>
+              </div>
+            </section>
+
+            <hr>
+            <section id="projects">
+              <div class="text-projects"><h1>Proyectos</h1></div>
+              <p>Proximamente</p>
+            </section>
+
+            <hr>
+            <footer><b>Hecho con ❤ por estefdev</b></footer>
 
             <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
             <script src="./javascript/typed.js"></script>
+            <script src="./javascript/changeTeme.js"></script>
      
     </body>
 
